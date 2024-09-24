@@ -1,0 +1,35 @@
+CREATE TABLE IF NOT EXISTS production (
+    planorderno TEXT,
+    billno TEXT,
+    xfbillno TEXT,
+    status TEXT,
+    forder TEXT,
+    cust TEXT,
+    custno TEXT,
+    custpno TEXT,
+    estatus TEXT,
+    pbtime TEXT,  -- 假定为日期时间字符串
+    pftime TEXT,  -- 假定为日期时间字符串
+    brandname TEXT,
+    brandcode TEXT,
+    prodcode TEXT,
+    prodname TEXT,
+    specmodel TEXT,
+    batchno TEXT,
+    unit TEXT,
+    pqty REAL,  -- 假定为数量，使用浮点数表示
+    diecutmethod TEXT,
+    foldmethod TEXT,
+    baggingmethod TEXT,
+    irradiationmethod TEXT,
+    packing TEXT,
+    processclassification TEXT,
+    processname TEXT,
+    processcode TEXT,
+    biller TEXT,
+    salesperson TEXT,
+    salesassistant TEXT,
+    msupervisor TEXT,
+    qsupervisor TEXT,
+    company TEXT
+);
